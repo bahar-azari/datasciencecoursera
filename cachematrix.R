@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This two function get as an input a matrix. The first one store the matrix 
+## and inverse value of the matrix.The second one computed the value of the 
+## inverse or simply return the cached one.
 
-## Write a short comment describing this function
+## 
 # This function, makeCacheMatrix creates a special "vector", 
 # which is really a list containing a function to
 
@@ -26,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+##
 # This function gets the above function -- list of 4 different tiny function
 #-- as the input. If the matrix is unchanged inside the makecacheMatrix it 
 # returns the so called cached data (inverse of matrix) which may be computed
